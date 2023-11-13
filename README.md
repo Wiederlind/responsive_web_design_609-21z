@@ -1,1 +1,3 @@
-# responsive_web_design_609-21z
+# responsive_web_design_609-21z task1
+## Филоненко Даниил Дмитриевич
+## Группа 609-21з, ПИ 2 курс
