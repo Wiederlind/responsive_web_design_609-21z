@@ -1,3 +1,4 @@
+/* Сброс стилей */
 *,
 *::before,
 *::after {
@@ -8,18 +9,39 @@ body, p, h1, h2, h3, h4, h5, ul {
     margin: 0;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin 0;
-    font-size: 16px;
-}
-
 ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+}
+/* Сброс стилей закончен */
+
+/* Настройка основных стилей */
+:root {
+    --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0C2836;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+/* Настройка основных стилей закончена */
+
+/* Стили для блока навигации */
 .navigation {
     padding-top: 35px;
     margin-bottom: 72px;
@@ -45,12 +67,11 @@ ul {
 .navigation__list-item-link:hover {
     text-decoration: underline;
 }
+/* конец Стили для блока навигации */
 
-.promo h1 {
-    font-size: 48px;
-    line-height: 120%;
-    font-weight: 800;
-    margin-bottom: 28px;
+/* Стили для главного блока */
+.promo {
+    margin-bottom: 65px;
 }
 
 .promo p {
@@ -79,3 +100,128 @@ ul {
 .promo__list li:last-child {
     margin-bottom: 0px;
 }
+/* конец Стили для главного блока */
+
+/* Стили для блока с проектами */
+.projects {
+    margin-bottom: 100px;
+}
+
+.projects .projects__card img {
+    border-radius: 15px;
+    margin-bottom: 12px;
+}
+
+.projects .projects__card a {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFA239;
+    text-decoration: none;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.projects .projects__card a:hover {
+    text-decoration: underline;
+}
+/* конец Стили для блока с проектами */
+
+/* Стили для блока с технологиями */
+.tech {
+    margin-bottom: 94px;
+}
+
+.tech .row {
+    row-gap: 25px;
+}
+
+.tech__card {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    text-align: center;
+    padding: 55px 87px 24px 87px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+.tech__card-img-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech__card-name {
+    font-size: 18px;
+    color: #8A99A8;
+}
+/* конец Стили для блока с технологиями */
+
+/* Стили для блока с обратной связью */
+.feedback {
+    margin-bottom: 100px;
+}
+
+.feedback__text {
+    margin-right: 37px;
+    text-align: right;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feedback__text h2 {
+    margin-bottom: 0;
+}
+
+.feedback__text p {
+    font-size: 24px;
+    margin-right: 4px;
+}
+
+.form {
+    background: white;
+    box-shadow: var(--box-shadow);
+    padding: 24px;
+    border-radius: 15px;
+}
+
+.form textarea, form input {
+    display: block;
+    padding: 8px 12px;
+    border: 1px solid #d9e2eb;
+    border-radius: 10px;
+    min-height: 40px;
+    overflow: hidden;
+    outline: none;
+    width: 100%;
+}
+
+.form textarea::placeholder, form input::placeholder {
+    color: #8A99A8;
+}
+
+.form label {
+    display: block;
+}
+
+.form__group {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.button-primary {
+    padding: 9px 60px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg, #fb8501 -0,07%, #ffb703 100%);
+}
+/* конец Стили для блока с обратной связью */
