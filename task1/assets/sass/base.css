@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Сброс стилей */
 *,
 *::before,
@@ -13,8 +14,8 @@ ul {
   list-style: none;
   padding: 0;
 }
-/* Сброс стилей закончен */
 
+/* Сброс стилей закончен */
 /* Настройка основных стилей */
 :root {
   --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
@@ -22,7 +23,7 @@ ul {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: var(--dark);
@@ -33,7 +34,9 @@ h1 {
   line-height: 120%;
   font-weight: 800;
   margin-bottom: 28px;
-  @media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
+  h1 {
     font-size: 36px;
   }
 }
@@ -42,8 +45,11 @@ h2 {
   font-weight: 800;
   font-size: 40px;
   margin-bottom: 40px;
-  @media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
+  h2 {
     font-size: 32px;
   }
 }
-/* Настройка основных стилей закончена */
+
+/* Настройка основных стилей закончена *//*# sourceMappingURL=base.css.map */

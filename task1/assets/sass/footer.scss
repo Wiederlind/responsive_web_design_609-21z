@@ -1,32 +1,31 @@
 /* Стили для футера */
 .footer {
+  .footer__top {
+    margin-bottom: 74px;
 
-}
+    @media screen and (max-width: 991px) {
+      row-gap: 24px;
+      align-items: center;
+    }
 
-.footer__top {
-  margin-bottom: 74px;
-}
+    .footer__links {
+      text-align: center;
 
-.footer__links {
-  text-align: center;
-}
+      .footer__links-item-link {
+        font-size: 24px;
+        color: var(--dark);
+      }
+    }
 
-.footer__links-item {
+    .footer__info {
+      text-align: right;
+    }
+  }
 
-}
-
-.footer__links-item-link {
-  font-size: 24px;
-  color: var(--dark);
-}
-
-.footer__info {
-  text-align: right;
-}
-
-.footer__copyright {
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 12px;
+  .footer__copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
 }
 /* конец Стили для футера */
