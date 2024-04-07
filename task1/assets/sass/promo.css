@@ -7,12 +7,12 @@
   font-weight: 400;
   margin-bottom: 262px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: var(--lg)) {
   .promo p {
     margin-bottom: 285px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: var(--md)) {
   .promo p {
     margin-bottom: 20px;
   }
@@ -23,9 +23,14 @@
   font-weight: 800;
   color: #ffa239;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: var(--md)) {
   .promo span {
     font-size: 36px;
+  }
+}
+@media screen and (max-width: var(--sm)) {
+  .promo span {
+    font-size: 32px;
   }
 }
 .promo h1 {
@@ -34,9 +39,14 @@
   font-weight: 800;
   margin-bottom: 28px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: var(--md)) {
   .promo h1 {
     font-size: 36px;
+  }
+}
+@media screen and (max-width: var(--sm)) {
+  .promo h1 {
+    font-size: 32px;
   }
 }
 .promo .promo-bg {
@@ -44,12 +54,12 @@
   background: url(../public/bg.png) center no-repeat;
   background-size: contain;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: var(--lg)) {
   .promo .promo-bg {
     height: 670px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: var(--md)) {
   .promo .promo-bg {
     background: none;
     height: auto;
@@ -59,7 +69,7 @@
   display: none;
   width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: var(--md)) {
   .promo .promo-bg .promo-bg-md {
     display: block;
     margin-bottom: 20px;

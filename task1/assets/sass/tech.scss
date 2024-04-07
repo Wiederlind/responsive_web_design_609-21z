@@ -6,7 +6,7 @@
     font-weight: 800;
     font-size: 40px;
     margin-bottom: 40px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $md) {
       font-size: 32px;
       margin-bottom: 28px;
     }
@@ -14,6 +14,16 @@
 
   .row {
     row-gap: 24px;
+
+    @media screen and (max-width: $sm) {
+      row-gap: 10px;
+    }
+
+    .col-6 {
+      @media screen and (max-width: $sm) {
+        padding: 0 5px;
+      }
+    }
 
     .tech__card {
       display: flex;
@@ -28,8 +38,12 @@
       background: #fff;
       box-shadow: var(--box-shadow);
 
-      @media screen and (max-width: 991px) {
+      @media screen and (max-width: $lg) {
         padding-top: 44px;
+      }
+
+      @media screen and (max-width: $sm) {
+        padding: 40px 60px 5px 60px;
       }
 
       .tech__card-img-wrap {

@@ -6,11 +6,11 @@
     font-weight: 400;
     margin-bottom: 262px;
 
-    @media screen and (max-width: 991px) {
+    @media screen and (max-width: $lg) {
       margin-bottom: 285px;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $md) {
       margin-bottom: 20px;
     }
   }
@@ -20,8 +20,13 @@
     line-height: 120%;
     font-weight: 800;
     color: #ffa239;
-    @media screen and (max-width: 768px) {
+
+    @media screen and (max-width: $md) {
       font-size: 36px;
+    }
+
+    @media screen and (max-width: $sm) {
+      font-size: 32px;
     }
   }
 
@@ -30,8 +35,13 @@
     line-height: 120%;
     font-weight: 800;
     margin-bottom: 28px;
-    @media screen and (max-width: 768px) {
+
+    @media screen and (max-width: $md) {
       font-size: 36px;
+    }
+
+    @media screen and (max-width: $sm) {
+      font-size: 32px;
     }
   }
 
@@ -40,11 +50,11 @@
     background: url(../public/bg.png) center no-repeat;
     background-size: contain;
 
-    @media screen and (max-width: 991px) {
+    @media screen and (max-width: $lg) {
       height: 670px;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $md) {
       background: none;
       height: auto;
     }
@@ -52,7 +62,7 @@
     .promo-bg-md {
         display: none;
         width: 100%;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: $md) {
           display: block;
           margin-bottom: 20px;
         }
