@@ -174,36 +174,7 @@ h2 {
   }
 }
 .promo span {
-  font-size: 48px;
-  line-height: 120%;
-  font-weight: 800;
   color: #ffa239;
-}
-@media screen and (max-width: 768px) {
-  .promo span {
-    font-size: 36px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .promo span {
-    font-size: 32px;
-  }
-}
-.promo h1 {
-  font-size: 48px;
-  line-height: 120%;
-  font-weight: 800;
-  margin-bottom: 28px;
-}
-@media screen and (max-width: 768px) {
-  .promo h1 {
-    font-size: 36px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .promo h1 {
-    font-size: 32px;
-  }
 }
 .promo .promo-bg {
   height: 628px;
@@ -251,17 +222,6 @@ h2 {
 .projects .row {
   row-gap: 24px;
 }
-.projects h2 {
-  font-weight: 800;
-  font-size: 40px;
-  margin-bottom: 40px;
-}
-@media screen and (max-width: 768px) {
-  .projects h2 {
-    font-size: 32px;
-    margin-bottom: 28px;
-  }
-}
 .projects .projects__card img {
   border-radius: 15px;
   margin-bottom: 12px;
@@ -283,17 +243,6 @@ h2 {
 /* Стили для блока с технологиями */
 .tech {
   margin-bottom: 94px;
-}
-.tech h2 {
-  font-weight: 800;
-  font-size: 40px;
-  margin-bottom: 40px;
-}
-@media screen and (max-width: 768px) {
-  .tech h2 {
-    font-size: 32px;
-    margin-bottom: 28px;
-  }
 }
 .tech .row {
   row-gap: 24px;
@@ -362,17 +311,6 @@ h2 {
     margin-right: 0;
     margin-bottom: 40px;
     display: block;
-  }
-}
-.feedback .feedback__text h2 {
-  font-weight: 800;
-  font-size: 40px;
-  margin-bottom: 0;
-}
-@media screen and (max-width: 768px) {
-  .feedback .feedback__text h2 {
-    font-size: 32px;
-    margin-bottom: 28px;
   }
 }
 .feedback .feedback__text p {

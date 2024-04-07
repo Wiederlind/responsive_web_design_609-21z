@@ -16,33 +16,7 @@
   }
 
   span {
-    font-size: 48px;
-    line-height: 120%;
-    font-weight: 800;
     color: #ffa239;
-
-    @media screen and (max-width: $md) {
-      font-size: 36px;
-    }
-
-    @media screen and (max-width: $sm) {
-      font-size: 32px;
-    }
-  }
-
-  h1 {
-    font-size: 48px;
-    line-height: 120%;
-    font-weight: 800;
-    margin-bottom: 28px;
-
-    @media screen and (max-width: $md) {
-      font-size: 36px;
-    }
-
-    @media screen and (max-width: $sm) {
-      font-size: 32px;
-    }
   }
 
   .promo-bg {
